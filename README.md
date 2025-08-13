@@ -37,10 +37,10 @@ bash
 Kopyala
 Düzenle
 PicTitle/
- ├── app.py               # Ana uygulama kodu
- ├── requirements.txt     # Bağımlılık listesi
- ├── README.md            # Proje açıklaması
- └── ornek_resimler/      # Örnek çıktı görselleri (opsiyonel)
+ ├── app.py                   # Ana uygulama kodu
+ ├── requirements.txt         # Bağımlılık listesi
+ ├── README.md                # Proje açıklaması
+ └── ornek_resimler/          # Örnek çıktı görselleri (opsiyonel)
 
 
 
