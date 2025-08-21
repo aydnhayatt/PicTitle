@@ -77,7 +77,7 @@ python app.py
 
 👩‍💻 Geliştirici
 Hayat Aydın
-## 💌 Destek Ol & Takip Et
+ 💌 Destek Ol & Takip Et
 Eğer bu projeyi beğendiysen, GitHub’da ⭐ **star** bırakmayı unutma!  
 
 📌 **Beni Takip Et:**  
