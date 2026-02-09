@@ -1,84 +1,62 @@
-# 🐝 PicTitle - Görsel Başlık Bulucu
+## 🐝 PicTitle – Image Caption Generator
 
-PicTitle, yüklediğiniz görseller için yapay zekâ kullanarak **İngilizce** ve **Türkçe** başlıklar üreten bir **Gradio** uygulamasıdır.  
-BLIP (Bootstrapping Language-Image Pretraining) modeli ile görselden metin üretir, ardından Google Translator API ile Türkçe çevirir.  
-Arayüz tamamen özelleştirilmiş bir CSS tasarımına sahiptir. ✨
+PicTitle is a Gradio application that uses artificial intelligence to generate English and Turkish titles for uploaded images.
+It produces image-to-text captions using the BLIP (Bootstrapping Language-Image Pretraining) model, then translates them into Turkish via the Google Translator API.
+The interface features a fully customized CSS design. ✨
 
----
+## 🚀 Features
 
-## 🚀 Özellikler
-- 📷 Görsel yükleme desteği
-- 🤖 AI tabanlı başlık üretimi (BLIP modeli)
-- 🌍 İngilizce → Türkçe otomatik çeviri
-- 🎨 Özel tasarlanmış animasyonlu arayüz
-- 🧹 Tek tıkla temizleme butonu
+📷 Image upload support
 
----
+🤖 AI-based title generation (BLIP model)
 
-## 📸 Ekran Görüntüsü 
-![PicTitle Arayüzü](ara_yüz/gorsel1.png)
+🌍 Automatic English → Turkish translation
 
----
+🎨 Custom-designed animated interface
 
-## 📦 Gereksinimler
-nginx
-Kopyala
-Düzenle
-gradio
-transformers
-torch
-pillow
-deep-translator
+🧹 One-click clear button
 
----
 
-## 📂 Proje Yapısı
-bash
-Kopyala
-Düzenle
+## 📦 Requirements
+
+-nginx
+-gradio
+-transformers
+-torch
+-pillow
+-deep-translator
+
+## 📂 Project Structure
 PicTitle/
- ├── app.py                   # Ana uygulama kodu
- ├── requirements.txt         # Bağımlılık listesi
- ├── README.md                # Proje açıklaması
- └── ornek_resimler/          # Örnek çıktı görselleri (opsiyonel)
+ ├── app.py                   # Main application code
+ ├── requirements.txt         # Dependency list
+ ├── README.md                # Project description
+ └── ornek_resimler/          # Sample output images (optional)
 
+## 🛠 Installation
 
+1.Clone the repository
 
----
-
-## 🛠 Kurulum
-
-1. **Depoyu klonla**
-```bash
-git clone https://github.com/ aydnhayatt/PicTitle.git
+git clone https://github.com/aydnhayatt/PicTitle.git
 cd PicTitle
 
 
-2. **Gerekli kütüphaneleri yükle**
+2.Install required libraries
 
-bash
-Kopyala
-Düzenle
 pip install -r requirements.txt
 
 
+3.Run the application
 
-
-3. **Uygulamayı çalıştır**
-
-bash
-Kopyala
-Düzenle
 python app.py
 
 
-
----
-
-👩‍💻 Geliştirici
+👩‍💻 Developer
 Hayat Aydın
- 💌 Destek Ol & Takip Et
-Eğer bu projeyi beğendiysen, GitHub’da ⭐ **star** bırakmayı unutma!  
 
-📌 **Beni Takip Et:**  
-- 🐙 GitHub: [aydnhayatt](https://github.com/aydnhayatt)  
+💌 Support & Follow
+If you like this project, don’t forget to leave a ⭐ star on GitHub!
+
+📌 Follow Me:
+
+🐙 GitHub: aydnhayatt
